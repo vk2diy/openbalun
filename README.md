@@ -79,8 +79,10 @@ The initial frequencies to test are the 20m, 30m and 40m HAM bands.
 The feed lines will be 50 ohm coax.
 
 The best baluns for these frequencies may be calculated as follows:
- * ...
-
+ * We can discount the antenna line integral approach because the wavelengths are too long to make this practical
+ * We therefore require a discrete component based approach
+ * We would prefer not to hand tweak, so we either need SMT/through hole components or on-PCB
+ * After searching, SMT/through hole is prohibitively tedious from a supply chain perspective, so we will look at on-PCB even though this is potentially non-optimal
 
 ## References
 
